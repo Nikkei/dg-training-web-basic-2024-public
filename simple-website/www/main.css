@@ -1,0 +1,14 @@
+:root {
+  --color-light-gray: #f1f1f1;
+  --color-black: #250d00;
+  --color-nikkei-blue: #003e70;
+  --color-accent: #002f56;
+  --color-bg: var(--color-nikkei-blue);
+  --color-fg: var(--color-light-gray);
+}
+
+html {
+  font-family: sans-serif;
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
